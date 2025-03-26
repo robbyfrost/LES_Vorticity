@@ -48,7 +48,7 @@ if calc_vort:
     calc_vorticity(dnc, t0, t1, dt, delta_t)
 
 if calc_vort_ac:
-    calc_vort_2d_autocorr(dnc,t0,t1,variable, hidx)
+    calc_vort_2d_autocorr(dnc, t0, t1, variable, hidx)
 
 if calc_vort_ls:
     calc_vort_length_scales(dnc,t0,t1)
